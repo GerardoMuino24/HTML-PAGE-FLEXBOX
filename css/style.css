@@ -1,3 +1,8 @@
+body{
+	width: 60%;
+	margin: 20%;
+
+}
 .container{
 
 	background-color: lightgreen;
@@ -11,6 +16,24 @@
 	border: 4px solid salmon;
 	height: 48px;
 	flex: 1;
+	margin: 4px;
+}
+
+.item-B{
+
+	background-color: lightgray;
+	border: 4px solid #8657d9;
+	height: 48px;
+	flex: 1;
+	margin: 4px;
+}
+
+.item-C{
+
+	background-color: peachpuff;
+	border: 4px solid salmon;
+	height: 48px;
+	width: 15%;
 	margin: 4px;
 }
 
@@ -63,7 +86,11 @@ div.flex-container{
 
 .flex-wrap{
 
-	flex-wrap: wrap	
+/*	flex-wrap: wrap;*/
+	display: inline-block;
+	margin-left: 10px;
+	width: 50%;
+
 }
 
 .item-child2-light-red{
@@ -71,7 +98,11 @@ div.flex-container{
 	background-color: lightpink;
     border: 4px solid darkred;
 	border-collapse: collapse;
-	width: 50%;
-	height: 20px;
+    height: 44%;
 	margin: 2px 0px 1px 0px;
+}
+
+.item-child2-light-red.space{
+
+	margin-top: 5px;
 }
